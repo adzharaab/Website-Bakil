@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #2e8b57;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 25px;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            background-color: #246b45;
+            transform: scale(1.05);
+        }
+
+        /* Main Section */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+
+        .text-content {
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .text-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            margin-bottom: 25px;
+            color: #2e8b57;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #444;
+        }
+
+        .container img {
+            width: 320px;
+            border-radius: 20px;
+            margin: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .container img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Boxed School Section */
+        .bottom-info {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px 40px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .bottom-info h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: #2e8b57;
+            margin-top: 25px;
+        }
+
+        .bottom-info h4 {
+            font-size: 20px;
+            color: #555;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .bottom-info p {
+            font-size: 18px;
+            color: #444;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #2e8b57;
+            color: #fff;
+            margin-top: 40px;
+            font-weight: 500;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .text-content {
+                text-align: center;
+            }
+
+            .bottom-info {
+                font-size: 18px;
+                padding: 25px;
+            }
+
+            .bottom-info h2 {
+                font-size: 24px;
+            }
+
+            .bottom-info h4 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">🍪Bakil | Webpage</div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="educational.html">Educational</a>
+            <a href="journey.html">Journey</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="text-content">
+            <h1>MY JOURNEY</h1>
+            <p>
+                My journey so far has been full of learning and growth.<br><br>
+                I have faced challenges, but they have taught me perseverance and determination.<br><br>
+                I hope to continue developing my skills and achieve my dreams in the future.
+            </p>
+        </div>
+
+        <img src="yawa2.jpg" alt="My picture in the folder">
+    </div>
+
+    <div class="bottom-info">
+
+    <h2>First Day</h2>
+    <h4>The Beginning</h4>
+    <p>
+        My first day of school was exciting and a little scary. I met my new teachers and classmates. Everything looked new, and I didn't know what to expect.
+      
+ 
+    </p>
+
+    <h2>Middle Years</h2>
+    <h4>Growth and Discovery</h4>
+    <p>
+        This period was about finding my strengths, making lasting friendships, and discovering subjects I truly loved. Each day brought new opportunities to learn and grow.
+    </p>
+
+    <h2>Present Day</h2>
+    <h4>Looking Forward</h4>
+    <p>
+        Now, I look back with pride at how far I've come. Every challenge and success has prepared me for the exciting future ahead.
+    </p>
+
+    <!-- Highlighted Education Boxes at the Bottom -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 40px;">
+        <div style="
+            background-color: #e0f2f1;
+            padding: 20px 40px;
+            border-radius: 15px;
+            width: 80%;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        ">
+            <p style="font-size: 20px; color: #00695c; font-weight: 600;">
+                Elementary School: <strong>Pagadian City Pilot School (PCPS)</strong>
+                <br>
+                <img src="k.jpeg" alt="My Image" 
+     style="width:300px; height:200px; border-radius:20px;">
+            </p>
+        </div>
+
+        <div style="
+            background-color: #e0f2f1;
+            padding: 20px 40px;
+            border-radius: 15px;
+            width: 80%;
+            text-align: center;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        ">
+            <p style="font-size: 20px; color: #00695c; font-weight: 600;">
+                High School: <strong>Holy Child Academy (HCA)</strong>
+                <br>
+                <img src="j.jpg" alt="My Image" 
+     style="width:300px; height:200px; border-radius:20px;">
+            </p>
+        </div>
+    </div>
+
+</div>
+
+    <footer>
+             2026 Bakil Webpage | All Rights Reserved
+    </footer>
+
+</body>
+</html>
